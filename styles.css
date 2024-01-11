@@ -37,6 +37,19 @@ h6 {
   align-items: center;
 }
 
+.button {
+  display: block;
+  height: 42px;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  color: #445162;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0 auto;
+}
+
 .header {
   background-color: #445162;
 }
@@ -118,7 +131,7 @@ h6 {
   list-style-type: none;
 }
 .list__item {
-  background-image: url(plus-black-symbol_icon-icons.com_73453.png);
+  background-image: url(/image/plus-black-symbol_icon-icons.com_73453.png);
   background-repeat: no-repeat;
   background-position: 0 3px;
   padding-left: 2rem;
@@ -248,16 +261,8 @@ h6 {
   font-size: 14px;
 }
 
-.button {
+.card__button {
   width: 87.3%;
-  height: 42px;
-  background-color: #fff;
-  border: none;
-  border-radius: 5px;
-  color: #445162;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 18px;
   margin-bottom: 20px;
 }
 
@@ -266,6 +271,98 @@ h6 {
   box-shadow: inset 0.5px 0.5px 10px rgba(68, 81, 98, 0.5);
 }
 /*footer*/
+
+.contacts {
+  background-color: #445162;
+}
+
+.contacts__info {
+  padding: 50px;
+}
+
+.contacts__title {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.contacts__kit {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 45px;
+}
+
+.form {
+  width: 502px;
+}
+
+.name,
+.email,
+.textarea {
+  width: 502px;
+  border: none;
+  font-family: inherit;
+  display: block;
+  font-size: 100%;
+  border-radius: 5px;
+  margin-bottom: 19px;
+}
+
+.name,
+.email {
+  height: 42px;
+  padding-left: 10px;
+}
+
+.textarea {
+  height: 172px;
+  padding: 10px 10px;
+}
+
+.form__button {
+  width: 142px;
+}
+
+.contacts-list {
+  list-style: none;
+  color: #fff;
+}
+
+.contacts-list__item {
+  line-height: 36px;
+}
+
+.contacts-list__skype {
+  background-image: url(/image/skype\ icon.svg);
+  background-repeat: no-repeat;
+  background-position: 0 5px;
+  padding-left: 2rem;
+  background-size: 1.5rem;
+}
+
+.contacts-list__icq {
+  background-image: url(/image/icq\ icon.svg);
+  background-repeat: no-repeat;
+  background-position: 0 5px;
+  padding-left: 2rem;
+  background-size: 1.5rem;
+}
+
+.contacts-list__email {
+  background-image: url(/image/email\ icon.svg);
+  background-repeat: no-repeat;
+  background-position: 0 5px;
+  padding-left: 2rem;
+  background-size: 1.5rem;
+}
+
+.contacts-list__tel {
+  background-image: url(/image/phone\ icon.svg);
+  background-repeat: no-repeat;
+  background-position: 0 5px;
+  padding-left: 2rem;
+  background-size: 1.5rem;
+}
 
 footer {
   text-align: center;
