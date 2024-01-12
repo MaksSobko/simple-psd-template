@@ -38,6 +38,7 @@ h6 {
 }
 
 .button {
+  cursor: pointer;
   display: block;
   height: 42px;
   background-color: #fff;
@@ -326,6 +327,7 @@ h6 {
 .contacts-list {
   list-style: none;
   color: #fff;
+  margin-bottom: 32px;
 }
 
 .contacts-list__item {
@@ -364,6 +366,30 @@ h6 {
   background-size: 1.5rem;
 }
 
+.social-row {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.round-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: none;
+  background-color: black;
+  cursor: pointer;
+}
+
+.round-button:hover {
+  background-color: gray;
+  opacity: 0.5;
+}
+
 footer {
+  margin-top: 5px;
   text-align: center;
 }
