@@ -335,7 +335,7 @@ h6 {
 }
 
 .contacts-list__skype {
-  background-image: url(/image/skype\ icon.svg);
+  background-image: url(/image/skype-icon.svg);
   background-repeat: no-repeat;
   background-position: 0 5px;
   padding-left: 2rem;
@@ -343,7 +343,7 @@ h6 {
 }
 
 .contacts-list__icq {
-  background-image: url(/image/icq\ icon.svg);
+  background-image: url(/image/icq-icon.svg);
   background-repeat: no-repeat;
   background-position: 0 5px;
   padding-left: 2rem;
@@ -351,7 +351,7 @@ h6 {
 }
 
 .contacts-list__email {
-  background-image: url(/image/email\ icon.svg);
+  background-image: url(/image/email-icon.svg);
   background-repeat: no-repeat;
   background-position: 0 5px;
   padding-left: 2rem;
@@ -359,7 +359,7 @@ h6 {
 }
 
 .contacts-list__tel {
-  background-image: url(/image/phone\ icon.svg);
+  background-image: url(/image/phone-icon.svg);
   background-repeat: no-repeat;
   background-position: 0 5px;
   padding-left: 2rem;
